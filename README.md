@@ -16,5 +16,10 @@
 - 정초이 : [Recurrent Neaural Network](./Choyi)
 - 남궁선 : [Reinforcement Learning](./Seon)
 
+## 논문 링크 
+* Open AI : https://openai.com/
+* NIPS : https://nips.cc/
+* ICML : https://icml.cc/
+
 ## 기초 ML 이론 스터디 자료 저장소
 - [Link](https://github.com/AUSG/AUSG_Study/tree/master/ML)
