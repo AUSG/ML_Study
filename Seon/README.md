@@ -24,3 +24,8 @@ Reinforcement Learning에 대해서 학습해 봅니다.
 * David Silver RL : https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ
 * 이웅원님의 GitBook : https://dnddnjs.gitbooks.io/rl/content/
 * RL Korea 블로그 : https://reinforcement-learning-kr.github.io/
+
+## 논문 링크 
+* Open AI : https://openai.com/
+* NIPS : https://nips.cc/
+* ICML : https://icml.cc/
