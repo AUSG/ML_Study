@@ -4,8 +4,8 @@
 
 ## **1. 강화학습이란?**
 
-<img src="./images/1.png" width="49%"/>
-<img src="./images/2.png" width="49%"/>
+<img src="./Images/1.png" width="49%"/>
+<img src="./Images/2.png" width="49%"/>
 
 - 다양한 분야가 융합된 학문
 - 머신러닝의 한 분야
@@ -22,7 +22,7 @@
 - 예를들어 뜨거운 주전자를 만져본 아이는 주전자가 뜨겁다는 것을 깨닫고 다음부터 주전자를 만질 때 조심한다.
 
 ### **강화학습의 구성요소**
-<img src="./images/3.png" width="40%"/>
+<img src="./Images/3.png" width="40%"/>
 
 - Agent : 학습을 하는 주체, Environment 에서 Action을 취하고 Reward, State를 얻는다.
 - Environment : Agent가 학습을 하고 극복하고자 하는 환경, Action에 따른 State와 Reward를 Agent에게 반환해준다.
