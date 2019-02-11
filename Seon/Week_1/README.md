@@ -4,8 +4,8 @@
 
 ## **1. 강화학습이란?**
 
-<img src="./Images/1.png" width="49%"/>
-<img src="./Images/2.png" width="49%"/>
+<img src="./Images/1.png" width="45%"/>
+<img src="./Images/2.png" width="45%"/>
 
 - 다양한 분야가 융합된 학문
 - 머신러닝의 한 분야
