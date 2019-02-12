@@ -11,16 +11,16 @@
 - 시작 S1 부터 미래 St+1에 도달할 확률과, 현재 St에서 St+1에 도달할 확률이 동일하다.
 - 현재는 과거의 미래이며, 현재는 과거의 정보들을 가지고있다.
 
-<img src="./images/1.png" width="45%"/>
+<img src="./Images/1.png" width="45%"/>
 
 ## **3. State Transition Matrix**
 - State s, s' 이 Markov 일 때, State Transition Probability 는 다음을 만족한다.<br>
 
-<img src="./images/2.png" width="30%"/>
+<img src="./Images/2.png" width="30%"/>
 
 - State Transition Matrix P 는 모든 State s 로부터 s' 으로 가는 State Transition Probability 를 정의합니다.
 
-<img src="./images/3.png" width="30%"/>
+<img src="./Images/3.png" width="30%"/>
 
 - State Transition Matrix에서 각각의 행을 구성하는 인자들의 총합은 1 이다.
 
@@ -28,24 +28,24 @@
 
 ***Markov Property를 만족하는 State들과, 이 State들 간의 State Transition Matrix 으로 구성된 Tuple***
 
-<img src="./images/4.png" width="45%"/>
+<img src="./Images/4.png" width="45%"/>
 <br>
-<img src="./images/5.png" width="45%"/>
+<img src="./Images/5.png" width="45%"/>
 <br>
-<img src="./images/5-1.png" width="50%"/>
+<img src="./Images/5-1.png" width="50%"/>
 
 ## **5. Markov Reward Process**
 ***Markov Chain에 Reward가 추가된 Tuple***
 
-<img src="./images/6.png" width="45%"/>
+<img src="./Images/6.png" width="45%"/>
 <br>
-<img src="./images/7.png" width="45%"/>
+<img src="./Images/7.png" width="45%"/>
 
 ## **6. Return**
 - Return G는 어떤 Episode의 Step t 부터 매 Step마다 얻게되는 모든 Reward의 합을 의미한다.
 - Discount r은 **7. Discount** 참고
 
- <img src="./images/8.png" width="45%"/>
+ <img src="./Images/8.png" width="45%"/>
 
 ## **7. Discount r**
 - 0 이상 1 이하의 값, [0, 1]
@@ -61,6 +61,6 @@
 - Agent는 다음 State s' 으로 이동할때 v(s') 이 가장 큰 State로 이동한다.
 - 학습을 반복하면서 Value Function은 업데이트 된다.
 
-<img src="./images/9.png" width="45%"/>
+<img src="./Images/9.png" width="45%"/>
 <br>
-<img src="./images/10.png" width="50%"/>
+<img src="./Images/10.png" width="50%"/>
