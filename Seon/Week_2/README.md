@@ -138,11 +138,11 @@ Bellman Equation 풀이
 <img src="./Images/19.png" width="50%"/>
 
 ### **(3) Backup Diagram**
-<img src="./Images/20-1.png" width="40%"/>
-<img src="./Images/20-2.png" width="40%"/>
+<img src="./Images/20-1.png" width="50%"/>
+<img src="./Images/20-2.png" width="50%"/>
 <br>
-<img src="./Images/20-3.png" width="40%"/>
-<img src="./Images/20-4.png" width="40%"/>
+<img src="./Images/20-3.png" width="50%"/>
+<img src="./Images/20-4.png" width="50%"/>
 
 ### **(4) Direct Solution**
 
@@ -154,8 +154,8 @@ Bellman Equation 풀이
 
 <img src="./Images/22.png" width="50%"/>
 <br>
-<img src="./Images/23.png" width="41%"/>
-<img src="./Images/24.png" width="45%"/>
+<img src="./Images/23.png" width="50%"/>
+<img src="./Images/24.png" width="50%"/>
 
 ## **6) Optimal Policy**
 ***Optimal Value Function의 Policy***
@@ -171,10 +171,10 @@ Bellman Equation 풀이
 
 ## **7) Bellman Optimality Equation**
 
-<img src="./Images/28-1.png" width="40%"/>
-<img src="./Images/28-2.png" width="40%"/>
+<img src="./Images/28-1.png" width="50%"/>
+<img src="./Images/28-2.png" width="50%"/>
 <br>
-<img src="./Images/28-3.png" width="40%"/>
-<img src="./Images/28-4.png" width="40%"/>
+<img src="./Images/28-3.png" width="50%"/>
+<img src="./Images/28-4.png" width="50%"/>
 
 
