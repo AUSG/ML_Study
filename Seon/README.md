@@ -2,8 +2,8 @@
 Reinforcement Learning에 대해서 학습해 봅니다.
 
 ## 학습 내용
-1. Introduction to Reinforcement Learning
-2. Markov Decision Process
+1. [Introduction to Reinforcement Learning](./Week_1)
+2. [Markov Decision Process](./Week_2)
 3. Dynamic Programming
 4. Model-Free Prediction
 5. Model Free Control
