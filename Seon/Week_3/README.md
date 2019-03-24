@@ -54,40 +54,40 @@ DP는 Prediction과 Control을 반복하며 다음과 같이 동작합니다.
 ## Iterative Policy Evaluation
 * Bellman expectation backup 을 반복적으로 사용하는 방법.
 
-<img src="./images/0.png" width="30%"/>
+<img src="./Images/0.png" width="30%"/>
 
 ## Bellman Equation
 
-<img src="./images/1.png" width="45%"/>
+<img src="./Images/1.png" width="45%"/>
 
 ## Example
 
-<img src="./images/4.png" width="45%"/>
+<img src="./Images/4.png" width="45%"/>
 <br>
-<img src="./images/3.png" width="45%"/>
-<img src="./images/2.png" width="45%"/>
+<img src="./Images/3.png" width="45%"/>
+<img src="./Images/2.png" width="45%"/>
 
 # **3. Policy Iteration**
 
 ## How to Improve a Policy
 
-<img src="./images/5.png" width="45%"/>
+<img src="./Images/5.png" width="45%"/>
 
 ## Policy Iteration
 
-<img src="./images/6.png" width="50%"/>
+<img src="./Images/6.png" width="50%"/>
 
 ## Policy Improvement (증명)
 
-<img src="./images/7.png" width="50%"/>
-<img src="./images/8.png" width="50%"/>
+<img src="./Images/7.png" width="50%"/>
+<img src="./Images/8.png" width="50%"/>
 
 ## Extension to policy Iteration
 - 그런데 2. Policy Evaluation의 Iterative Policy Evaluaion을 몇번이나 해야하는가?
 - 꼭 수없이 많은 단계의(e.g K=1000) Evalution을 한 뒤에 Policy Improvement를 해야하는가?
 - 적당한 때에 (e.g K=5) 끊고, Policy Improvement를 하면 안되는가? -> ***Value Iteration***
 
-<img src="./images/9.png" width="50%"/>
+<img src="./Images/9.png" width="50%"/>
 
 # **4. Value Iteration**
 
@@ -95,25 +95,25 @@ DP는 Prediction과 Control을 반복하며 다음과 같이 동작합니다.
 
 - s1 -> s2, s2가 s1의 Successor state, s2에서 optimal value가 존재한다면 s1에서도 optimal value를 찾을 수 있다.
 
-<img src="./images/10.png" width="45%"/>
+<img src="./Images/10.png" width="45%"/>
 
 ## Deterministic Value Iteration
 - 만약 Bellman Optimality Equation을 통해 Final state부터 시작해서 V*(s)를 구할 수 있다.
 
-<img src="./images/11.png" width="45%"/>
+<img src="./Images/11.png" width="45%"/>
 
 ## Example
 
-<img src="./images/12.png" width="55%"/>
+<img src="./Images/12.png" width="55%"/>
 
 ## Value Iteration
 
-<img src="./images/13.png" width="55%"/>
-<img src="./images/14.png" width="50%"/>
+<img src="./Images/13.png" width="55%"/>
+<img src="./Images/14.png" width="50%"/>
 
 # **5. Summary**
 
-<img src="./images/15.png" width="50%"/>
+<img src="./Images/15.png" width="50%"/>
 
 # **6. Asynchronous Dynamic Programming**
 
