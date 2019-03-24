@@ -5,7 +5,7 @@ Reinforcement Learning에 대해서 학습해 봅니다.
 1. [Introduction to Reinforcement Learning](./Week_1)
 2. [Markov Decision Process](./Week_2)
 3. [Dynamic Programming](./Week_3)
-4. Model-Free Prediction
+4. [Model-Free Prediction](./Week_4)
 5. Model Free Control
 6. Value Function Approximation
 7. Policy Gradient Methods
