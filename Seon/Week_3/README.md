@@ -2,7 +2,7 @@
 
 # **1. Introduction**  
 
-## What is Dynamic Pragramming?
+## What is Dynamic Programming?
 
 The term ***dynamic programming*** refers to a ***collection of algorithms*** that can be used to ***compute optimal policies*** given a perfect model of the environment as a Markov decision process
 
@@ -22,7 +22,7 @@ The term ***dynamic programming*** refers to a ***collection of algorithms*** th
 ## Planning and Learning
 
 * Planning
-    * ***The model of the environment is knwon***
+    * ***The model of the environment is known***
     * The agent performs computations with its model (without any external interaction)
     * The agent improves its policy    
 * Learning
@@ -83,8 +83,8 @@ DP는 Prediction과 Control을 반복하며 다음과 같이 동작합니다.
 <img src="./Images/8.png" width="50%"/>
 
 ## Extension to policy Iteration
-- 그런데 2. Policy Evaluation의 Iterative Policy Evaluaion을 몇번이나 해야하는가?
-- 꼭 수없이 많은 단계의(e.g K=1000) Evalution을 한 뒤에 Policy Improvement를 해야하는가?
+- 그런데 2. Policy Evaluation의 Iterative Policy Evaluation을 몇번이나 해야하는가?
+- 꼭 수없이 많은 단계의(e.g K=1000) Evaluation을 한 뒤에 Policy Improvement를 해야하는가?
 - 적당한 때에 (e.g K=5) 끊고, Policy Improvement를 하면 안되는가? -> ***Value Iteration***
 
 <img src="./Images/9.png" width="50%"/>
