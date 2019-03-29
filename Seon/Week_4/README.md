@@ -52,4 +52,86 @@
 
 # **2. Temporal-Difference Learning**
 
-# **3. TD(λ)**
+## Temporal-Difference Learning
+
+- 학습을 진행하면서 매 Step의 State마다 Update를 진행하는 방법
+- TD methods learn directly from episodes of experience
+- TD is model-free: no knowledge of MDP transitions / rewards
+- TD learns from ***incomplete episodes***, by bootstrapping
+- TD updates a guess towards a guess
+
+## Bias and Variance Trade-Off
+- **Bias** : 데이터가 중심으로 부터 벗어난 정도
+- **Variance** : 데이터가 분포된 정도
+- Bias와 Variance는 Trade-Off 관계로, 하나가 높으면 하나가 낮은 성질이 있다.
+- TD는 매 Step마다 업데이트가 진행되기 때문에, 초기 Step에 Bias가 많이 영향을 받는다. (Bias 높음)
+- MC는 episode가 끝날때 학습하여, 경로의 모든 Step을 반영하기 때문에 초기 episode에 Variance가 많이 영향을 받는다. (Variance 높음)
+
+<img src="./Images/6.png" width="50%" /> <br>
+<img src="./Images/5.jpeg" width="40%" /> <br>
+출처 : https://bywords.tistory.com/
+
+## MC VS TD
+
+<img src="./Images/7.png" width="55%" /> <br>
+
+## Advantages and Disadvantages of MC vs TD
+
+### Learning
+- TD can learn before knowing the final outcome
+    - TD can learn online after every step
+    - MC must wait until end of episode before return is known
+- TD can learn without the final outcome
+    - TD can learn from incomplete sequences
+    - MC can only learn from complete sequences
+    - TD works in continuing (non-terminating) environments
+    - MC only works for episodic (terminating) environments
+
+### Bias, Variance
+- MC has high variance, zero bias
+    - Good convergence properties
+    - (even with function approximation)
+    - Not very sensitive to initial value
+    - Very simple to understand and use
+- TD has low variance, some bias
+    - Usually more efficient than MC
+    - TD(0) converges to vπ(s)
+    - (but not always with function approximation)
+    - More sensitive to initial value
+
+### Efficiency
+- TD exploits Markov property
+    - Usually more efficient in Markov environments
+- MC does not exploit Markov property
+    - Usually more effective in non-Markov environments
+
+# **3. MC vs TD vs DP**
+
+## Backup
+
+### Monte Carlo
+
+<img src="./Images/8.png" width="45%" /> <br>
+
+### Temporal Difference
+
+<img src="./Images/9.png" width="45%" /> <br>
+
+### Dynamic Programming
+
+<img src="./Images/10.png" width="45%" /> <br>
+
+## Bootstrapping and Sampling
+
+- **Bootstrapping** : update involves an estimate
+    - MC does not bootstrap
+    - TD bootstrap
+    - DP bootstrap
+- **Sampling** : update samples an expectation
+    - MC samples
+    - TD samples
+    - DP does not sample
+
+## Unified View of Reinforcement Learning
+
+<img src="./Images/11.png" width="45%" /> <br>
