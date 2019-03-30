@@ -4,15 +4,16 @@ Reinforcement Learning에 대해서 학습해 봅니다.
 ## 학습 내용
 1. [Introduction to Reinforcement Learning](./Week_1)
 2. [Markov Decision Process](./Week_2)
-3. Dynamic Programming
-4. Model-Free Prediction
+3. [Dynamic Programming](./Week_3)
+4. [Model-Free Prediction](./Week_4)
 5. Model Free Control
-6. Value Function Approximation
-7. Policy Gradient Methods
-8. Integrating Learning and Planning
-9. Exploration and Exploitation
-10. Open AI Gym
-11. Training Classic Game by RL
+6. N-Step TD, TD(λ), Eligibility Traces
+7. Value Function Approximation
+8. Policy Gradient Methods
+9. Integrating Learning and Planning
+10. Exploration and Exploitation
+11. Open AI Gym
+12. Training Classic Game by RL
 
 ## 학습 교재
 * Csaba Szepesvari, Algorithms for Reinforcement Learning
